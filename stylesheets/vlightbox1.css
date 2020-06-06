@@ -1,0 +1,43 @@
+#image-zoom {
+	width:100%;
+	zoom:1;	
+}
+/*fade*/
+#image-zoom .image-zoom div{
+	left:0;
+	bottom:0;
+	width:100%;
+	background:#000;
+	opacity:0.7;
+	padding:5px;
+	color:#FFF;	
+}
+#image-zoom .image-zoom {
+	height:120px;
+	overflow:hidden;
+}
+
+#image-zoom .image-zoom {
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	position:relative;
+	vertical-align:top;
+	margin:5px;
+	width:160px;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:none;
+	text-align:center;
+	outline:none;
+}
+#image-zoom .image-zoom a{
+	margin:0;
+}
+#image-zoom .image-zoom img{
+	display:block;
+	border:none;
+	margin:0;
+}
+#image-zoom .image-zoom div {display:none}
